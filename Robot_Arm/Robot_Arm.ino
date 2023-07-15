@@ -16,10 +16,10 @@ struct ServoPins
 };
 std::vector<ServoPins> servoPins = 
 {
-  { Servo(), 27 , "Base", 90},
-  { Servo(), 26 , "Shoulder", 90},
-  { Servo(), 25 , "Elbow", 90},
-  { Servo(), 33 , "Gripper", 90},
+  { Servo(), 4 , "Base", 0},
+  { Servo(), 17 , "Shoulder", 0},
+  { Servo(), 19 , "Elbow", 0},
+  { Servo(), 23 , "Gripper", 0},
 };
 
 struct RecordedStep
